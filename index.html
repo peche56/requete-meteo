@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="requete.js"></script>
+
+
+    <title>Site Meteo</title>
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+
+                <h1>Mon appli meteo</h1>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="col-xs-3">
+        <div class="choose">
+            <p>Entrez un nom de ville</p>
+
+            <input type="text" class="input-medium">
+            <button id="weather" class="btn">OK</button>
+
+        </div>
+    </div>
+
+
+
+    <div class="col-xs-9">
+        <div class="answer">
+
+
+<!--
+            <div id='openweathermap-widget'></div>
+            <script type='text/javascript'>
+                window.myWidgetParam = {
+                    id: 12,
+                    cityid: 524901,
+                    appid: '3c6edc700819f7cd78ffc9cc959264b8',
+                    containerid: 'openweathermap-widget',
+                };
+                (function() {
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    script.async = true;
+                    script.src = 'http://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(script, s);
+                })();
+            </script> -->
+
+            <div id='openweathermap-widget'></div>
+            <script type='text/javascript'>
+                window.myWidgetParam = {
+                    id: 12,
+                    cityid: 524901,
+                    appid: '3c6edc700819f7cd78ffc9cc959264b8',
+                    containerid: 'openweathermap-widget',
+                };
+                (function() {
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    script.async = true;
+                    script.src = 'http://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(script, s);
+                })();
+            </script>
+
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

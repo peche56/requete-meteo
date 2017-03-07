@@ -1,0 +1,20 @@
+h1 {
+
+text-align: center;
+background-color: skyblue;
+
+}
+
+.choose {
+
+background-color: lightgrey;
+height: 500px;
+
+}
+
+.answer {
+
+background-color: grey;
+height: 500px;
+
+}
