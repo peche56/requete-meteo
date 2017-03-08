@@ -49,6 +49,11 @@
     <div class="col-xs-9">
         <div class="answer">
 
+          <ul>
+                <li class="meteo"></li>
+              </ul>
+
+
 
 <!--
             <div id='openweathermap-widget'></div>
@@ -68,24 +73,6 @@
                     s.parentNode.insertBefore(script, s);
                 })();
             </script> -->
-
-            <div id='openweathermap-widget'></div>
-            <script type='text/javascript'>
-                window.myWidgetParam = {
-                    id: 12,
-                    cityid: 524901,
-                    appid: '3c6edc700819f7cd78ffc9cc959264b8',
-                    containerid: 'openweathermap-widget',
-                };
-                (function() {
-                    var script = document.createElement('script');
-                    script.type = 'text/javascript';
-                    script.async = true;
-                    script.src = 'http://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js';
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(script, s);
-                })();
-            </script>
 
 
         </div>
